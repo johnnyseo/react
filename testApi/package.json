@@ -1,0 +1,32 @@
+{
+  "name": "testapi",
+  "version": "1.0.0",
+  "description": "TestAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\"",
+    "start": "nodemon server.js"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnyseo/testApi.git"
+  },
+  "keywords": [
+    "\"RESTful\"",
+    "\"API\"",
+    "\"Tutorial\""
+  ],
+  "author": "johnnyseo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnnyseo/testApi/issues"
+  },
+  "homepage": "https://github.com/johnnyseo/testApi#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.1"
+  }
+}
