@@ -5,8 +5,8 @@ import {getRandomColor} from '../utils';
 
 // store 안의 state값을 props로 연결
 const mapStateToProps = (state) => ({
-    counters: state.counters
-})
+    counters: state.get('counters')
+});
 
 /* 
     액션 생성자를 사용하여 액션을 생성하고,
